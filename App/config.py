@@ -6,7 +6,6 @@ class Settings(BaseSettings):
   database_password:str
   database_name:str
   database_username:str
-  # database_url:str
  
 
   class Config:
@@ -14,10 +13,3 @@ class Settings(BaseSettings):
 
 settings = Settings()
 
-
-# class Token_Settings(BaseSettings):
-#   secret_key:str
-#   alogrithm:str
-#   access_token_expire_minutes:int
-
-# token_settings = Token_Settings()
