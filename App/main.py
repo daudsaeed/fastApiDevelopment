@@ -58,9 +58,9 @@ def findIndexOfMovie(id:int):
 ####################### INCLUDE THE ROUTER ###################
 app = FastAPI();
 
-@app.get("/")
-def default():
-  return {"Working": "Succesfuly working "}
+# @app.get("/")
+# def default():
+#   return {"Working": "Succesfuly working "}
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
